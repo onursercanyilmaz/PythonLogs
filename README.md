@@ -1,2 +1,2 @@
-# numpy
-Numpy array examples
+# Numpy
+Numpy Linear Algebra Examples
