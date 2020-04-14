@@ -1,3 +1,4 @@
 #  ⚙️ Numpy
-Numpy Linear Algebra Examples
+🔢 Numpy and Pandas Examples
+🐍 Dataset Studies
  
