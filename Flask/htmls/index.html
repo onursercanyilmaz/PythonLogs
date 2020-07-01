@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+
+
+<h1>Onur Sercan Yılmaz</h1>
+<!-- Ders:1 Sayı1: {{number}} <br> Sayı2:{{number2}}  -->
+
+<body>
+{% if message%}
+<p>{{message}}</p> <br>
+
+{% else %}
+<p>Mesaj yok!</p> <br>
+
+{% endif %}
+
+
+{% for number in numbers %}
+<p>{{number}}</p> 
+{% endfor %}
+
+	<ul>
+	{% for number in numbers %}
+	<li>{{number}}</li> 
+	{% endfor %}
+	</ul>
+
+	<form action = "/toplam" method= "post">
+		<input type="number" name ="number1"><br>
+		<input type="number" name ="number2"><br>
+		<Button type="submit">Gönder</Button>
+
+	</form>
+</body>
+</html> 
